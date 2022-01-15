@@ -118,6 +118,37 @@ main-img{
     text-align: right;
     margin-right: 5px;
 }
+.last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-image: url(images/last\ section\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    }
+
+.list h2{
+    font-size: 30px;
+    margin-left: 5px;
+    border-bottom: 5px solid whitesmoke;
+    
+
+} 
+.list{
+    margin-left: 700px;
+    
+}
+
+.list li{
+    padding-bottom: 20px;
+    margin-left: 190px;
+    list-style: square;
+}
+
 
 /*--------------
 Footer Styles 
@@ -125,7 +156,7 @@ Footer Styles
 .footer{
     width: 100%;
     background-color: rgb(3, 3, 39);
-    margin-top: 100px;
+    
     display: flex;
     flex-direction: column;
     color: white;
@@ -138,6 +169,7 @@ Footer Styles
     margin: 10px;
 
 }
+
 
 /*------------------
      Media Queries 
@@ -155,6 +187,28 @@ Footer Styles
             justify-content: center;
             
         }
+        .last-section{
+            background-position: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+    
+        }
+        .list{
+            margin-left: 0px;
+        }
+        .list h2{
+            margin-top: 60px;
+            margin-left: 90px;
+            
+        }
+       .list a{
+           margin-left: 90px;
+       }
+       
+    
+
         
     }
 
