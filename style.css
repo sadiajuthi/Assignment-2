@@ -205,12 +205,7 @@ Footer Styles
         }
        .list a{
            margin-left: 90px;
-       }
-       
-    
-
-        
-    }
+       }}
 
 
     @media only screen and (min-width:578px) and  (max-width:768px){
@@ -223,8 +218,28 @@ Footer Styles
         .products{
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            grid-gap: 20px;
             justify-content: center;
             
         }
-        
+        .last-section{
+            background-position: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+    
+        }
+        .list{
+            margin-left: 0px;
+        }
+        .list h2{
+            margin-top: 60px;
+            margin-left: 90px;
+            
+        }
+       .list a{
+           margin-left: 90px;
+       }
     }
