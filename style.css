@@ -175,6 +175,9 @@ Footer Styles
      Media Queries 
     -----------------*/
     @media only screen and (max-width:577px){
+        .intro{
+            text-align: right;
+        }
         .header{
             display: flex;
             flex-direction: column;
