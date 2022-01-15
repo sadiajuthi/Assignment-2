@@ -129,7 +129,8 @@ Footer Styles
     display: flex;
     flex-direction: column;
     color: white;
-    align-items: center;
+    justify-content: center;
+    align-items: cnter;
     text-align: center;
 }
 .social-link{
