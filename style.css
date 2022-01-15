@@ -175,13 +175,15 @@ Footer Styles
      Media Queries 
     -----------------*/
     @media only screen and (max-width:577px){
-        .intro{
-            text-align: right;
-        }
-        .header{
+        
+            .header{
             display: flex;
             flex-direction: column;
             align-items: center;
+
+        }
+        .main-img{
+            margin-top: 40px;
         }
        
         .products{
@@ -216,6 +218,9 @@ Footer Styles
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+        .main-img{
+            margin-top: 40px;
         }
         
         .products{
